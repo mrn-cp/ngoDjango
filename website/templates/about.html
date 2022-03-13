@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% block title %}About{% endblock title %}
+{% block about %}active{% endblock about %}
+{% block body %}
+<!--About-->
+<div class="container">
+    <h2 class="my-5 py-1 text-center text-primary">About</h2>
+    <div class="row row-cols-1 row-cols-md-2 g-4 my-5 mx-auto">
+      <div class="col">
+        <img src="/static/logo.jpg" width="300" height="300" class="img-fluid mx-auto img-thumbnail border border-primary border-4 rounded-circle shadow p-3 mb-3 bg-body rounded" alt="Trust Logo">
+      </div>
+      <div class="col">
+        <div class="about">
+          <p class="text-break">
+            NGO is an indigenous nonprofit organization for social, economical and educational development
+            founded on 2014. It is benificial over thousands of people worldwide.
+          </p>
+          <p class="text-break">
+            It is primarily focused on helping and working for helpless people, orphans, 
+             widows, disabled people, social works. Alongside it is also focused on Children and their education.
+          </p>
+        </div>  
+      </div>
+    </div>
+</div>
+<!--Members-->
+<div class="container px-5 mb-5">
+  <h2 class="my-5 py-1 text-center text-primary">Members</h2>
+  <div class="card-group">
+    <div class="card border border-primary border-5 mx-2">
+      <img src="/static/man.jpg" class="card-img-top" alt="Chairman">
+      <div class="card-body bg-primary text-center text-light">
+        <h5 class="card-title">Chairman</h5>
+        <p class="card-text">Willium</p>
+      </div>
+    </div>
+    <div class="card border border-primary border-5 mx-2">
+      <img src="/static/man.jpg" class="card-img-top" alt="secretary">
+      <div class="card-body bg-primary text-center text-light">
+        <h5 class="card-title">Secretary</h5>
+        <p class="card-text">Harry</p>
+      </div>
+    </div>
+    <div class="card border border-primary border-5 mx-2">
+      <img src="/static/man.jpg" class="card-img-top" alt="treasurer">
+      <div class="card-body bg-primary text-center text-light">
+        <h5 class="card-title">Treasurer</h5>
+        <p class="card-text">Terence</p>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+<!--Footer-->
+<div class="container-fluid bg-secondary ">
+    <p class="text-center my-0 py-2 text-white" style="font-size:17px; font-style:italic">Designed by Manas : <a href="https://www.linkedin.com/in/manas-ranjan-nag-2a0301220/" style="color:white">Click Me For Contact<a/><br>9337864418</p>
+</div>
+
+{% endblock body %}

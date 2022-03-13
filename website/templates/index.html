@@ -1,0 +1,201 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock title %}
+{% block home %}active{% endblock home %}
+{% block body %}
+
+<!--carousel-->
+<div class="container px-0">
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/static/ngo1.jpg" class="d-block w-100 h-50" alt="Trust Logo">
+          </div>
+          <div class="carousel-item">
+            <img src="/static/ngo2.jpg" class="d-block w-100 h-50" alt="Trust Camp">
+          </div>
+          <div class="carousel-item">
+            <img src="/static/ngo3.jpg" class="d-block w-100 h-50" alt="Player Tower">
+          </div>
+          <div class="carousel-item">
+            <img src="/static/ngo4.jpg" class="d-block w-100 h-50" alt="Widow Women">
+          </div>
+          <div class="carousel-item">
+            <img src="/static/ngo5.jpg" class="d-block w-100 h-50" alt="Children">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+</div>
+
+<!--About-->
+<div class="container">
+    <h2 class="my-5 py-1 text-center text-primary">About</h2>
+    <div class="row row-cols-1 row-cols-md-2 g-4 my-5 mx-auto">
+      <div class="col">
+        <img src="/static/logo.jpg" width="300" height="300" class="img-fluid mx-auto img-thumbnail border border-primary border-4 rounded-circle shadow p-3 mb-3 bg-body rounded" alt="Trust Logo">
+      </div>
+      <div class="col">
+        <div class="about">
+          <p class="text-break">
+              NGO is an indigenous nonprofit organization for social, economical and educational development
+              founded on 2014. It is benificial over thousands of people worldwide.
+          </p>
+          <p class="text-break">
+            It is primarily focused on helping and working for helpless people, orphans, 
+              widows, disabled people, social works. Alongside it is also focused on Children and their education.
+          </p>
+        </div>  
+      </div>
+    </div>
+</div>
+<!--Members-->
+<div class="container px-5 mb-5">
+  <h2 class="my-5 py-1 text-center text-primary">Members</h2>
+  <div class="card-group">
+    <div class="card border border-primary border-5 mx-2">
+      <img src="/static/man.jpg" class="card-img-top" alt="Chairman">
+      <div class="card-body bg-primary text-center text-light">
+        <h5 class="card-title">Chairman</h5>
+        <p class="card-text">Willium</p>
+      </div>
+    </div>
+    <div class="card border border-primary border-5 mx-2">
+      <img src="/static/man.jpg" class="card-img-top" alt="secretary">
+      <div class="card-body bg-primary text-center text-light">
+        <h5 class="card-title">Secretary</h5>
+        <p class="card-text">Harry</p>
+      </div>
+    </div>
+    <div class="card border border-primary border-5 mx-2">
+      <img src="/static/man.jpg" class="card-img-top" alt="treasurer">
+      <div class="card-body bg-primary text-center text-light">
+        <h5 class="card-title">Treasurer</h5>
+        <p class="card-text">Terence</p>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+<!--Mission-->
+<div class="container px-5 mb-4">
+  <div>
+      <h2 class="my-5 py-1 text-center text-primary">Missions</h2>
+  </div>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <div class="col">
+      <div class="card border border-info border-5">
+        <img src="/static/ngo3.jpg" class="card-img-top" alt="helpless">
+        <div class="card-body bg-info text-center">
+          <p class="card-text">Mission for Children</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="col">
+      <div class="card border border-info border-5">
+        <img src="/static/widow.webp" class="card-img-top" alt="Widows">
+        <div class="card-body bg-info text-center">
+          <p class="card-text">Mission for Widows</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card border border-info border-5">
+        <img src="/static/hlpr.jpg" class="card-img-top" alt="economically poor people">
+        <div class="card-body bg-info text-center">
+          <p class="card-text">Helping for Economically Poor People</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card border border-info border-5">
+        <img src="/static/ngo4.jpg" class="card-img-top" alt="Children">
+        <div class="card-body bg-info text-center">
+          <p class="card-text">Mission for Education.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Donate-->
+<div class="container">
+  <h2 class="my-3 py-1 text-center text-primary">Donate</h2>
+  <div class="row row-cols-1 row-cols-md-2 g-4 my-5 mx-auto">
+      <div class="col">
+          <img src="/static/donate.jpg" width="300" height="300" class="img-fluid mx-auto img-thumbnail border border-primary border-5 shadow p-3 mb-3 bg-body rounded" alt="Trust Logo">
+      </div>
+      <div class="col">
+      
+              <h5 class="text-success">Our Organization warmly wellcomes your Support</h5> <br>
+              <h4>Account Number: <span class="text-primary">###########</span></h4>
+              <h4>IFSC Code: <span class="text-primary">SBIN######</span></h4> <br>
+
+        
+       
+      
+              <div class="my-1"> 
+                  <img src="/static/googlepay.svg" alt="" width="150" height="50">
+                  <h4 class="text-primary mx-2 align-bottom" style="display:inline-block">+01##########</h4>
+              </div> 
+              <div class="mt-1 mb-5"> 
+                  <img src="/static/phonepe.svg" alt="" width="130" height="35">
+                  <h4 class="text-primary mx-2 align-bottom" style="display:inline-block">+01##########</h4>
+              </div>
+      
+      </div>
+  </div>
+</div>
+<!--Contact-->
+<div class="container mb-4">
+  <h2 class="my-3 py-1 text-center text-primary">Address</h2>
+  <div class="row row-cols-1 row-cols-md-2 g-4 my-1 mx-auto">
+    <div class="col">
+      <h4 class="text-break text-center">
+        Headquarter <br>
+          Urban NY
+      </h4> 
+      <div class=""> 
+        <img src="/static/phone.svg" alt="" width="45" height="45">
+        <h4 class="mx-2" style="display:inline-block">+01##########</h4>
+      </div>
+      <div class=""> 
+        <img src="/static/whatsapp.png" alt="" width="50" height="50">
+        <h4 class="mx-2" style="display:inline-block">+01##########</h4>        
+      </div>
+      <div class="text-break"> 
+        <img src="/static/email.svg" alt="" width="45" height="45">
+        <h4 class="mx-2" style="display:inline-block">gmai@gmail.com</h4>        
+      </div>
+    </div>
+    <div class="col">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.3060207141!2d-74.2598715610934!3d40.69714940463053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1647103576958!5m2!1sen!2sin" width="600" height="450" allowfullscreen="" loading="lazy" class="img-fluid border border-5 border-secondary"></iframe>
+    </div>
+  </div>
+</div>
+
+<!--Footer-->
+<div class="container-fluid bg-secondary ">
+  <p class="text-center my-0 py-2 text-white" style="font-size:17px; font-style:italic">Designed by Manas : <a href="https://www.linkedin.com/in/manas-ranjan-nag-2a0301220/" style="color:white">Click Me For Contact<a/><br>9337864418</p>
+</div>
+{% endblock body %}

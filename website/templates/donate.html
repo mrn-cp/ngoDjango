@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block title %}Donate{% endblock title %}
+{% block donate %}active{% endblock donate %}
+{% block body %}
+
+<!--Donate-->
+<div class="container">
+    <h2 class="my-3 py-1 text-center text-primary">Donate</h2>
+    <div class="row row-cols-1 row-cols-md-2 g-4 my-5 mx-auto">
+        <div class="col">
+            <img src="/static/donate.jpg" width="300" height="300" class="img-fluid mx-auto img-thumbnail border border-primary border-5 shadow p-3 mb-3 bg-body rounded" alt="Trust Logo">
+        </div>
+        <div class="col">
+        
+                <h5 class="text-success">Our Organization warmly wellcomes your Support</h5> <br>
+                <h4>Account Number: <span class="text-primary">###########</span></h4>
+                <h4>IFSC Code: <span class="text-primary">SBIN######</span></h4> <br>
+  
+          
+         
+        
+                <div class="my-1"> 
+                    <img src="/static/googlepay.svg" alt="" width="150" height="50">
+                    <h4 class="text-primary mx-2 align-bottom" style="display:inline-block">+01##########</h4>
+                </div> 
+                <div class="mt-1 mb-5"> 
+                    <img src="/static/phonepe.svg" alt="" width="130" height="35">
+                    <h4 class="text-primary mx-2 align-bottom" style="display:inline-block">+01##########</h4>
+                </div>
+        
+        </div>
+    </div>
+</div>
+
+<!--Footer-->
+<div class="container-fluid bg-secondary fixed-bottom" >
+    <p class="text-center py-1 mb-0 text-white" style="font-size:17px; font-style:italic">Designed by Manas : <a href="https://www.linkedin.com/in/manas-ranjan-nag-2a0301220/" style="color:white">Click Me For Contact<a/><br>9337864418</p>
+</div>
+
+{% endblock body %}

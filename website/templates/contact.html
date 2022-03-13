@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block title %}Contact{% endblock title %}
+{% block contact %}active{% endblock contact %}
+{% block body %}
+<!--Contact-->
+<div class="container mb-4">
+  <h2 class="my-3 py-1 text-center text-primary">Address</h2>
+  <div class="row row-cols-1 row-cols-md-2 g-4 my-1 mx-auto">
+    <div class="col">
+      <h4 class="text-break text-center">
+        Headquarter<br>
+          Urban NY
+      </h4> 
+      <div class=""> 
+        <img src="/static/phone.svg" alt="" width="45" height="45">
+        <h4 class="mx-2" style="display:inline-block">+01##########</h4>
+      </div>
+      <div class=""> 
+        <img src="/static/whatsapp.png" alt="" width="50" height="50">
+        <h4 class="mx-2" style="display:inline-block">+01##########</h4>        
+      </div>
+      <div class="text-break"> 
+        <img src="/static/email.svg" alt="" width="45" height="45">
+        <h4 class="mx-2" style="display:inline-block">gmai@gmail.com</h4>        
+      </div>
+    </div>
+    <div class="col">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.3060207141!2d-74.2598715610934!3d40.69714940463053!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1647103576958!5m2!1sen!2sin" width="600" height="600" allowfullscreen="" loading="lazy" class="img-fluid border border-5 border-secondary"></iframe>
+    </div>
+  </div>
+</div>
+  
+<!--Footer-->
+<div class="container-fluid bg-secondary fixed-bottom mt-4">
+    <p class="text-center my-0 py-2 text-white" style="font-size:17px; font-style:italic">Designed by Manas : <a href="https://www.linkedin.com/in/manas-ranjan-nag-2a0301220/" style="color:white">Click Me For Contact<a/><br>9337864418</p>
+</div>
+
+{% endblock body %}
